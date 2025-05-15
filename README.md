@@ -25,7 +25,7 @@ This project is machine-learning power web app that detects whether  a URL is **
 ##  🧠 Machine learning details
 
 - **Model used:** RandomForestClassifier
-- **Accuracy:** e.g 98.2% on test data
+- **Accuracy:** *e.g 98.2%* on test data
 - **Feature Engineering:**
  Custom features from raw URLs such as:
   - Presence of `https`
