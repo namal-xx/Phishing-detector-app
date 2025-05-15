@@ -1,4 +1,4 @@
-# Phishing-detector-app
+# 🎭 Phishing-detector-app
 
 This project is machine-learning power web app that detects whether  a URL is **phishing** or **legitimate**. It is built using Python and deployed with [Streamlit.]( https://streamlit.io/)
 <br>
