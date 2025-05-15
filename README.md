@@ -7,3 +7,39 @@ This project is machine-learning power web app that detects whether  a URL is **
 📁 **Project Type:** End-to-end Machine Learning + Web Deployment
 <br>
 🧠 **Tech Stack:** Pandas - Scikit-learn - NumPy - Streamlit - Python
+
+
+## 📌 Features
+
+- Paste any URL and get a predictions instantly
+- Automatic Feature extraction from the URL
+- Lightweight, fast, and easy to use
+- Deployed online for public use
+
+## 🚀 How it works
+ 
+ 1. The app extracts feature from tthe input URL (like `https`, URL lenght, special symbols etc.)
+ 2. A trained ML model classifies the URL s **phishing** or **legitimate**
+ 3. The result is shown instantly on the screen
+
+##  🧠 Machine learning details
+
+- **Model used:**
+- **Accuracy:**
+- **Feature Engineering:** Custom features from raw URLs
+
+## 🛠 How to run locallly
+
+```bash
+# Clone the repository
+git clone https://github.com/namal-xx/Phishing-detector-app.git
+cd Phishing-detector-app
+
+# Install dependencies
+pip install -r requiremenets.txt
+
+# Run the app
+streamlit run phishing_detector_app.py
+ 
+
+  
