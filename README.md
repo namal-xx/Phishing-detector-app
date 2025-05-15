@@ -6,7 +6,7 @@ This project is machine-learning power web app that detects whether  a URL is **
 <br>
 📁 **Project Type:** End-to-end Machine Learning + Web Deployment
 <br>
-🧠 **Tech Stack:** Pandas *Scikit-learn *NumPy *Streamlit *Python
+🧠 **Tech Stack:** Pandas Scikit-learn NumPy Streamlit Python
 
 
 ## 📌 Features
