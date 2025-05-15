@@ -30,7 +30,7 @@ This project is machine-learning power web app that detects whether  a URL is **
  Custom features from raw URLs such as:
   - Presence of `https`
   - Length of URL
-  - Count of special characters like `@`,`-`,`.`
+  - Count of special characters like `@`, `-`, `.`
   - Use of IP addresses or suspicious keywords (e.g. `login`, `secure`, etc.)
 
 
