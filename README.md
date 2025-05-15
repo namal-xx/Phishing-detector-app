@@ -32,7 +32,7 @@ This project is machine-learning power web app that detects whether  a URL is **
 
 ```bash
 # Clone the repository
-git clone https://github.com/namal-xx/Phishing-detector-app.git
+git clone https://github.com/namal-xx/Phishing-detector-app.git 
 cd Phishing-detector-app
 
 # Install dependencies
