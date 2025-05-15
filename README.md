@@ -1,12 +1,12 @@
 # Phishing-detector-app
 
-This project is machine-learning power web app that detects whether  a URL is **phishing** or **legitimate**. It is built using Python and deployed with Streamlit.. https://streamlit.io/
+This project is machine-learning power web app that detects whether  a URL is **phishing** or **legitimate**. It is built using Python and deployed with [Streamlit.]( https://streamlit.io/)
 <br>
-🔗 **Live App:** Click here to try it https://phishing-detector-app-hlxvj4rqueq5nqgfu5qzj8.streamlit.app/
+🔗 **Live App:** [Try it here](https://phishing-detector-app-hlxvj4rqueq5nqgfu5qzj8.streamlit.app/)
 <br>
 📁 **Project Type:** End-to-end Machine Learning + Web Deployment
 <br>
-🧠 **Tech Stack:** Pandas - Scikit-learn - NumPy - Streamlit - Python
+🧠 **Tech Stack:** Pandas * Scikit-learn * NumPy * Streamlit * Python
 
 
 ## 📌 Features
@@ -18,7 +18,7 @@ This project is machine-learning power web app that detects whether  a URL is **
 
 ## 🚀 How it works
  
- 1. The app extracts feature from tthe input URL (like `https`, URL lenght, special symbols etc.)
+ 1. The app extracts feature from tthe input URL (like HTTPS usage, URL lenght, special symbols etc.)
  2. A trained ML model classifies the URL s **phishing** or **legitimate**
  3. The result is shown instantly on the screen
 
@@ -26,7 +26,13 @@ This project is machine-learning power web app that detects whether  a URL is **
 
 - **Model used:**
 - **Accuracy:**
-- **Feature Engineering:** Custom features from raw URLs
+- **Feature Engineering:**
+ Custom features from raw URLs such as:
+  - Presence of `https`
+  - Length of URL
+  - Count of special characters like `@`,`-`,`.`
+  - Use of IP addresses or suspicious keywords (e.g. `login`, `secure`, etc.)
+
 
 ## 🛠 How to run locallly
 
