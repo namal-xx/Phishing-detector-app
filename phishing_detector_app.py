@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import re
 from urllib.parse import urlparse
-data =  pd.read_csv("Phishing_Legitimate_full.csv")
+#data =  pd.read_csv("Phishing_Legitimate_full.csv")
 
 # Load model and scaler
 model = joblib.load("phishing_model.pkl")
