@@ -18,14 +18,14 @@ This project is a machine-learning power web app that detects whether  a URL is 
 
 ## 🚀 How it works
  
- 1. The app extracts feature from tthe input URL (like HTTPS usage, URL lenght, special symbols etc.)
+ 1. The app extracts feature from tthe input URL (like HTTPS usage, URL length  , special symbols etc.)
  2. A trained ML model classifies the URL s **phishing** or **legitimate**
  3. The result is shown instantly on the screen
 
 ##  🧠 Machine learning details
 
 - **Model used:** RandomForestClassifier
-- **Accuracy:** *e.g 98.2%* on test data
+- **Accuracy:** *98.2%* on test data
 - **Feature Engineering:**
  Custom features from raw URLs such as:
   - Presence of `https`
