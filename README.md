@@ -34,7 +34,7 @@ This project is a machine-learning power web app that detects whether  a URL is 
   - Use of IP addresses or suspicious keywords (e.g. `login`, `secure`, etc.)
 
 
-## 🛠 How to run locallly
+## 🛠 How to run locally
 
 ```bash
 # Clone the repository
